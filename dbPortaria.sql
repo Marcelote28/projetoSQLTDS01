@@ -146,7 +146,8 @@ insert into tbVendas(valor,dataVend,horaVend,codUsu,codProd,codCli)
 insert into tbVendas(valor,dataVend,horaVend,codUsu,codProd,codCli)
 	values(10.50,'2024/11/25','10:30:05',1,5,1);
 
-
+insert into tbVendas(valor,dataVend,horaVend,codUsu,codProd,codCli)
+	values(10.50,'2024/11/25','10:30:05',1,5,1);
 
 select * from tbFuncionarios;
 select * from tbFornecedores;
