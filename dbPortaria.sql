@@ -155,3 +155,10 @@ select * from tbClientes;
 select * from tbUsuarios;
 select * from tbProdutos;
 select * from tbVendas;
+
+
+-- inner join
+
+select func.nome as 'Nome do funcionário', usu.nome as 'Nome do Usuário' from tbUsuarios as usu inner join tbFuncionarios as func on usu.codFunc = func.codFunc 
+where func.nome like '%n%';
+
